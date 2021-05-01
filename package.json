@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend -- exec node --experimental-modules backend/server.js"
   },
   "author": "",
@@ -23,5 +24,7 @@
     "@typescript-eslint/parser": "^4.17.0",
     "eslint": "^7.21.0",
     "eslint-plugin-react": "^7.22.0"
-  }
+  },
+  "engines": {"node":"12.4.0", "npm": "6.9.0"}
+
 }
