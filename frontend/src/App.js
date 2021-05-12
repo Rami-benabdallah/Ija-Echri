@@ -67,7 +67,7 @@ function App() {
             >
               <i className="fa fa-bars"></i>
             </button>
-            <Link className="brand" to="/">amazona</Link>
+            <Link className="brand" to="/">RAMI</Link>
           </div>
           <div>
             <Route
@@ -228,7 +228,7 @@ function App() {
         </main>
         <footer className="row center">
           {userInfo && !userInfo.isAdmin && <ChatBox userInfo={userInfo} />}
-          <div>All right reserved</div>{' '}
+          <div>All rights reserved</div>{' '}
         </footer>
       </div>
     </BrowserRouter>
