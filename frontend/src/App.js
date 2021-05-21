@@ -67,7 +67,7 @@ function App() {
             >
               <i className="fa fa-bars"></i>
             </button>
-            <Link className="brand" to="/">RAMI</Link>
+            <Link className="brand" to="/">Ija Echri</Link>
           </div>
           <div>
             <Route
