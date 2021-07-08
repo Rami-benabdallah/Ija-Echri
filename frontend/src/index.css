@@ -27,12 +27,13 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #09498a!important;
 }
 main {
   grid-area: main;
   padding: 1rem;
 }
+
 footer {
   grid-area: footer;
   background-color: #203040;
