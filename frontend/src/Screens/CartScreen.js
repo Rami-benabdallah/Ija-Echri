@@ -98,7 +98,7 @@ export default function CartScreen(props) {
                                 className="primary block"
                                 disabled={cartItems.length === 0}
                             >
-                                Proceed to Checkout
+                                Proceed to Checkout !
                 </button>
                         </li>
                     </ul>
